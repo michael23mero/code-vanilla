@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CURD Vanilla</title>
+
+    <!--Bootswatch--> <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+    <!--Font Awesome--> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body onload="Read()">
+    <nav class="navbar navbar-expand-lg  navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="/">CRUD Vanilla</a>
+        </div>
+    </nav>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="card p-4">
+                    <form id="formulario">
+                        <h4 class="text-center">Registro de tarea</h4><br>
+                        <div class="form-group">
+                            <textarea id="nombre" rows="4" placeholder="Descripcion de tarea" class="form-control"></textarea>
+                        </div>
+                        <button class="btn btn-primary btn-block">Guardar</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="col-md-7">
+                <card class="pd-4" id="datos"></card>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
+

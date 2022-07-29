@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "nombre": "Michael",
+        "apellido": "Mero",
+        "semestre": "Quinto",
+        "paralelo": "B",
+        "direccion": "Manta",
+        "telefono": 963776411,
+        "correo_electronico": "maicol23mero@gmail.com",
+        "p_matricula": true
+    },
+
+    {
+        "id": 2,
+        "nombre": "Joel",
+        "apellido": "Anton",
+        "semestre": "Quinto",
+        "paralelo": "A",
+        "direccion": "Manta",
+        "telefono": 963776411,
+        "correo_electronico": "maicol23mero@gmail.com",
+        "p_matricula": false
+    }
+]
